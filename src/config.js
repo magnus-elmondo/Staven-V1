@@ -3,7 +3,7 @@ import 'dotenv/config';
 export const config = {
   port: Number(process.env.PORT || 3000),
   dashboardUser: process.env.DASHBOARD_USER || 'admin',
-  dashboardPassword: process.env.DASHBOARD_PASSWORD || ''
+  dashboardPassword: process.env.DASHBOARD_PASSWORD || 'stevan10'
 };
 
 if (!config.dashboardPassword) {
